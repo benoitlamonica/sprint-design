@@ -1,9 +1,6 @@
 module.exports = {  
   content: ['./public/index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
-    fontSize: {
-      xxs: '.6rem',
-    },
     colors: {
       red: '#d1161e',
       yellow: '#fecc02',
@@ -13,6 +10,9 @@ module.exports = {
       white: '#ffffff'
     },
     extend: {
+      fontSize: {
+        xxs: '.6rem',
+      },
     },
   },
   plugins: [] 

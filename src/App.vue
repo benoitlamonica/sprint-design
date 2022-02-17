@@ -1,6 +1,6 @@
 <template>
   <div class="bg-lightgray h-full">
-    <Home />
+    <RouterView />
     <FloatingCart />
     <BottomNav />
     <OnboardingPopup />
@@ -8,7 +8,6 @@
 </template>
 
 <script>
-import Home from './components/Home';
 import FloatingCart from './components/FloatingCart';
 import BottomNav from './components/BottomNav';
 import OnboardingPopup from './components/OnboardingPopup';
@@ -18,7 +17,6 @@ export default {
 
   components: {
     FloatingCart,
-    Home,
     BottomNav,
     OnboardingPopup
   },
