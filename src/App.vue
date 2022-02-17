@@ -3,7 +3,7 @@
     <Home />
     <FloatingCart />
     <BottomNav />
-    <OnboardingPopup />
+    <OnboardingPopup v-if="false" />
   </div>
 </template>
 

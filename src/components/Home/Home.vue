@@ -3,21 +3,27 @@
     class="fixed h-24 z-10"
     :src="header"
   />
-  <div class="grid grid-cols-1 gap-2.5 top-24 relative pt-2.5 px-2.5">
+  <div class="grid grid-cols-1 gap-2.5 top-24 relative pt-2.5 px-2.5 pb-24">
     <img
       v-for="(section, index) in sections"
       :key="index"
       :src="section"
       class="block"
     />
+    <RealCard />
   </div>
 </template>
 
 <script>
 import { useSections } from './useSections';
+import RealCard from '../RealCard';
 
 export default {
   name: 'Home',
+
+  components: {
+    RealCard
+  },  
 
   setup() {
     const { header, sections } = useSections();
