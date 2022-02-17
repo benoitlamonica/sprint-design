@@ -7,5 +7,11 @@ module.exports = {
         `
       }
     }
+  },
+  pwa: {
+    name: 'BetClick',
+    themeColor: '#d1161e',
+    appleMobileWebAppCapable: 'yes',
+    appleMobileWebAppStatusBarStyle: 'white',
   }
 };
