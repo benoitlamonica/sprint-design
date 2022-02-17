@@ -1,0 +1,35 @@
+
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:vue/vue3-recommended"
+    ],
+    "parser": "vue-eslint-parser",
+    "plugins": [
+        "vue"
+    ],
+    "rules": {
+        "no-undef": 0,
+        "vue/html-self-closing": [0],
+        "vue/max-attributes-per-line": 1,
+        "vue/multi-word-component-names": 0,
+        "array-bracket-newline": [1, { "minItems": 3 }],
+        "array-element-newline": [1, { "minItems": 3 }],
+        "object-curly-spacing": [1, "always"],
+        "quotes": [2,"single",{ "allowTemplateLiterals": true }],
+        "indent": [2, 2],
+        "semi": [2, "always"],
+        "comma-dangle": [1, "only-multiline"],
+        "comma-spacing": [1, {"after" : true}],
+        "quote-props": [2, "as-needed", {"unnecessary": true}],
+        "vue/attribute-hyphenation": [1, "never"],
+        "vue/require-default-prop": 0,
+        "vue/no-deprecated-destroyed-lifecycle": 0,
+        "vue/require-explicit-emits": 0,
+        "vue/one-component-per-file": 0
+    }
+}
