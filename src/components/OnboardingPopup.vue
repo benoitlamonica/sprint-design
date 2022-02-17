@@ -2,7 +2,7 @@
   <div class="absolute bottom-0 bg-onboarding">
     <div class="flex flex-col justify-center items-center p-8">
       <img
-        src="@/assets/horse.svg"
+        src="@/assets/svg/horse.svg"
         alt=""
       >
       <h2 class="text-white mt-2 font-bold text-xl">
